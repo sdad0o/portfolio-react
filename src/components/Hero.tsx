@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import myImage from '@/assets/me.jpg';
 
 const Hero: React.FC = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
@@ -69,7 +70,7 @@ const Hero: React.FC = () => {
               className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 reveal"
             >
               <span className="text-cyan">Hello, I'm</span> <br />
-              <span className="font-poppins">John Doe</span>
+              <span className="font-poppins">Sadad Albayyari</span>
             </h1>
             
             <p 
@@ -115,8 +116,8 @@ const Hero: React.FC = () => {
               {/* Avatar */}
               <Avatar className="w-56 h-56 lg:w-72 lg:h-72 rounded-full border-4 border-cyan shadow-lg hover-scale">
                 <AvatarImage 
-                  src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9" 
-                  alt="John Doe" 
+                  src={myImage}
+                  alt="Sadad albayyari" 
                   className="object-cover"
                 />
                 <AvatarFallback className="bg-cyan/20 text-4xl font-poppins font-bold">JD</AvatarFallback>

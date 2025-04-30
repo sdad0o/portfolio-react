@@ -56,7 +56,7 @@ const About: React.FC = () => {
             
             <div className="space-y-6">
               <p className="text-lg reveal">
-                Hello! I'm John, a passionate Full-Stack Developer with 5+ years of experience crafting digital experiences. 
+                Hello! I'm Sadad, a passionate Full-Stack Developer with 5+ years of experience crafting digital experiences. 
                 My journey in development began during college when I built my first web application, and I've been hooked ever since.
               </p>
               
