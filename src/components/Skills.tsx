@@ -11,23 +11,22 @@ const skills: Skill[] = [
   // Frontend
   { name: 'HTML/CSS', level: 95, category: 'frontend' },
   { name: 'JavaScript', level: 90, category: 'frontend' },
-  { name: 'React', level: 92, category: 'frontend' },
-  { name: 'TypeScript', level: 85, category: 'frontend' },
-  { name: 'Tailwind CSS', level: 88, category: 'frontend' },
+  { name: 'Bootstrap', level: 92, category: 'frontend' },
+  { name: 'Tailwind CSS', level: 83, category: 'frontend' },
   
   // Backend
-  { name: 'Node.js', level: 86, category: 'backend' },
-  { name: 'Express', level: 85, category: 'backend' },
-  { name: 'MongoDB', level: 80, category: 'backend' },
-  { name: 'SQL', level: 75, category: 'backend' },
-  { name: 'GraphQL', level: 70, category: 'backend' },
+  { name: 'PHP', level: 90, category: 'backend' },
+  { name: 'Laravel', level: 94, category: 'backend' },
+  { name: 'C#', level: 70, category: 'backend' },
+  { name: 'SQL', level: 88, category: 'backend' },
+  { name: 'SQL Server', level: 85, category: 'backend' },
   
   // Tools
   { name: 'Git', level: 90, category: 'tools' },
-  { name: 'Docker', level: 78, category: 'tools' },
-  { name: 'Webpack', level: 72, category: 'tools' },
-  { name: 'Jest', level: 75, category: 'tools' },
-  { name: 'CI/CD', level: 70, category: 'tools' },
+  { name: 'Jira', level: 78, category: 'tools' },
+  { name: 'Figma', level: 72, category: 'tools' },
+  { name: 'Postman', level: 93, category: 'tools' },
+  { name: 'VS Code', level: 96, category: 'tools' },
 ];
 
 const Skills: React.FC = () => {
