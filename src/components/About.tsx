@@ -1,6 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { User } from 'lucide-react';
+import SdadImage from '@/assets/aboutSdad.jpg';
 
 const About: React.FC = () => {
   // Function to check if element is in viewport
@@ -38,7 +39,7 @@ const About: React.FC = () => {
               {/* Main image with border */}
               <div className="rounded-lg overflow-hidden shadow-xl border-4 border-white">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+                  src={SdadImage} 
                   alt="Developer profile"
                   className="w-full h-auto"
                 />
@@ -56,30 +57,20 @@ const About: React.FC = () => {
             
             <div className="space-y-6">
               <p className="text-lg reveal">
-                Hello! I'm Sadad, a passionate Full-Stack Developer with 5+ years of experience crafting digital experiences. 
-                My journey in development began during college when I built my first web application, and I've been hooked ever since.
+                Hello! I'm Sadad, a Computer Information Systems graduate and a passionate Full Stack Developer.
+                I’ve gained hands-on experience through internships and personal projects, working with technologies like Laravel, PHP, JavaScript, and MySQL.
+                I have a solid understanding of both front-end and back-end development, including MVC architecture, RESTful APIs, and Agile methodologies.
+
               </p>
               
               <p className="text-lg reveal">
-                I specialize in building robust web applications using modern technologies like React, Node.js, and TypeScript. 
-                My approach combines technical expertise with creative problem-solving to deliver solutions that are both functional and elegant.
+                Currently, I’m also preparing for my AWS Cloud certification to strengthen my skills in cloud computing and infrastructure.
+                I'm a fast and self-motivated learner, and I really enjoy working in team environments where I can build clean, scalable, and cloud-ready applications.
+                I'm excited about contributing to innovative projects and continuously growing as a developer.
               </p>
               
-              <p className="text-lg reveal">
-                When I'm not coding, you can find me hiking, playing chess, or exploring new technologies. I believe in continuous learning and regularly contribute to open-source projects.
-              </p>
               
               <div className="flex flex-wrap gap-6 pt-4 reveal">
-                <div className="flex items-center">
-                  <div className="w-12 h-12 rounded-full bg-cyan flex items-center justify-center mr-3">
-                    <User className="h-6 w-6 text-foreground" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold">Experience</h3>
-                    <p>5+ Years</p>
-                  </div>
-                </div>
-                
                 <div className="flex items-center">
                   <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center mr-3">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -100,7 +91,7 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold">Education</h3>
-                    <p>Computer Science</p>
+                    <p>Computer Information System</p>
                   </div>
                 </div>
               </div>

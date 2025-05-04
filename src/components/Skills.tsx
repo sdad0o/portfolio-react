@@ -77,7 +77,7 @@ const Skills: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="section-header reveal">Technical Skills</h2>
         <p className="text-lg text-foreground/80 max-w-3xl mb-10 reveal">
-          I've honed my skills over years of practical experience. Here's a breakdown of my technical expertise and proficiency levels.
+          Here's a breakdown of my technical expertise and proficiency levels.
         </p>
         
         {/* Tab navigation */}
