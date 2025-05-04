@@ -38,7 +38,7 @@ const Index: React.FC = () => {
 
   // Update document title
   useEffect(() => {
-    document.title = 'John Doe | Full-Stack Developer';
+    document.title = 'Sadad Albayyari | Full-Stack Developer';
   }, []);
 
   return (

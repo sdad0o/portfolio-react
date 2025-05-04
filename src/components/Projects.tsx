@@ -24,42 +24,42 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-featured online shopping platform with cart and payment integration",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com",
-    demo: "https://demo-link.com",
-    fullDescription: "A comprehensive e-commerce solution built with React on the frontend and Node.js/Express on the backend. Features include product catalog, user authentication, shopping cart, order management, and Stripe payment integration. The platform is fully responsive and optimized for various devices."
+    title: "Gender-Based Recommendation System",
+    description: "Built a machine learning model to recommend products based on gender using Python, Django, Pandas, Scikit-learn. ",
+    image: "/assets/projects/genderSYS.png",
+    tech: ["Python", "Django", "Pandas", "Scikit-learn"],
+    github: "https://github.com/sdad0o/Gender-Based-recommendations-system",
+    demo: "https://github.com/sdad0o/Gender-Based-recommendations-system",
+    fullDescription: ""
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "Collaborative task manager with real-time updates",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-    tech: ["Vue.js", "Firebase", "Tailwind CSS"],
-    github: "https://github.com",
-    fullDescription: "A collaborative task management application that allows teams to create, assign, and track tasks in real-time. Built with Vue.js and Firebase for real-time database functionality. Features include drag-and-drop task organization, priority levels, due dates, and team member assignments."
+    title: "Image segmentation",
+    description: "Developed an image segmentation application to partition images based on color,intensity, and texture, enabling enhanced analysis and object detection Technologies and build a web UI. ",
+    image: "/assets/projects/image.png",
+    tech: ["Flask", "Python", "KNN"],
+    github: "https://github.com/sdad0o/Image-segmentation",
+    fullDescription: ""
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "Real-time weather information with interactive maps",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    tech: ["JavaScript", "OpenWeather API", "Chart.js"],
-    github: "https://github.com",
-    demo: "https://demo-link.com",
-    fullDescription: "An interactive weather dashboard that provides real-time weather data from multiple locations. Utilizes the OpenWeather API to fetch current conditions, forecasts, and historical data. Features include interactive maps, temperature charts, and customizable weather alerts."
+    title: "Arabic Chatbot",
+    description: " Developed an Arabic chatbot for law consulting with a Flask backend and responsive frontend, enabling real-time Arabic conversations and deployed locally/online using ngrok. ",
+    image: "/assets/projects/chatBot.png",
+    tech: ["Flask", "Jyputer", "NLP"],
+    github: "https://github.com/sdad0o/chatBot-for-law-consulting",
+    demo: "https://github.com/sdad0o/chatBot-for-law-consulting",
+    fullDescription: " Developed an Arabic chatbot for law consulting with a Flask backend and responsive frontend, enabling real-time Arabic conversations and deployed locally/online using ngrok. "
   },
   {
     id: 4,
-    title: "Portfolio Website",
-    description: "Personal portfolio website showcasing projects and skills",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com",
-    demo: "https://demo-link.com",
-    fullDescription: "A modern portfolio website built with React and Tailwind CSS. Features a clean, responsive design with smooth animations powered by Framer Motion. Includes sections for showcasing projects, skills, and contact information. The site is optimized for performance and accessibility."
+    title: "Blog App",
+    description: "Built a modern blogging platform with Laravel, featuring user management, rich content creation, comments, and email subscriptions. ",
+    image: "/assets/projects/blog.png",
+    tech: ["Laravel", "Sql", "PHP"],
+    github: "https://github.com/sdad0o/Blogs",
+    demo: "https://github.com/sdad0o/Blogs",
+    fullDescription: "Built a modern blogging platform with Laravel, featuring user management, rich content creation, comments, and email subscriptions."
   },
 ];
 
@@ -168,14 +168,28 @@ const Projects: React.FC = () => {
           ))}
         </div>
         
-        <div className="mt-12 text-center reveal">
+        {/* <div className="mt-12 text-center reveal">
           <Button 
             variant="outline" 
             className="border-warm-gray hover:border-cyan hover:text-cyan"
           >
             View All Projects <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
-        </div>
+        </div> */}
+      <div className="mt-12 text-center reveal">
+        <a 
+          href="https://github.com/sdad0o?tab=repositories" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <Button 
+            variant="outline" 
+            className="border-warm-gray hover:border-cyan hover:text-cyan"
+          >
+            View All Projects <ArrowRight className="ml-2 h-4 w-4" />
+          </Button>
+        </a>
+      </div>
       </div>
     </section>
   );
