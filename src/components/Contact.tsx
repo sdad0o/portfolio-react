@@ -159,8 +159,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm text-foreground/70">Email</p>
-                    <a href="mailto:hello@example.com" className="hover:text-cyan">
-                      hello@example.com
+                    <a href="mailto:sdad.loui.bayyari@gmail.com" className="hover:text-cyan">
+                      sdad.loui.bayyari@gmail.com
                     </a>
                   </div>
                 </div>
@@ -171,8 +171,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm text-foreground/70">Phone</p>
-                    <a href="tel:+1234567890" className="hover:text-cyan">
-                      +1 (234) 567-890
+                    <a href="tel:+962790154790" className="hover:text-cyan">
+                      +962 790 154 790
                     </a>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-bold mb-4">Social Profiles</h3>
               <div className="flex items-center space-x-4">
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/sdad0o/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-warm-gray/20 flex items-center justify-center hover:bg-cyan hover-scale"
@@ -192,24 +192,13 @@ const Contact: React.FC = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/sdad0o" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-warm-gray/20 flex items-center justify-center hover:bg-cyan hover-scale"
                 >
                   <Github className="h-5 w-5" />
                 </a>
-              </div>
-            </div>
-            
-            {/* Google Map or Image */}
-            <div className="mt-10 reveal">
-              <div className="rounded-lg overflow-hidden border border-warm-gray/30">
-                <img 
-                  src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
-                  alt="Location" 
-                  className="w-full h-auto object-cover"
-                />
               </div>
             </div>
           </div>

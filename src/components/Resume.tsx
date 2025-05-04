@@ -24,38 +24,26 @@ interface Education {
 const experiences: Experience[] = [
   {
     id: 1,
-    title: "Senior Frontend Developer",
-    company: "Tech Innovations Inc.",
-    period: "2020 - Present",
+    title: "Full-Stack Web Development Intern",
+    company: "App trainers ",
+    period: "December 2024 - Present",
     description: [
-      "Led the development of a React-based customer dashboard that improved user engagement by 40%.",
-      "Implemented responsive design principles, ensuring seamless experiences across all devices.",
-      "Mentored junior developers and conducted code reviews to maintain high code quality.",
-      "Collaborated with design and product teams to deliver features aligned with business goals."
+      "Gained hands-on experience building scalable web applications with Laravel, including authentication systems, API integrations, and database management.",
+      "Developed a strong understanding of object-oriented programming (OOP) and the Model-View-Controller (MVC) architecture, applying these concepts in building scalable web applications.",
+      "Applied Agile/Scrum methodologies in team projects: Participated in sprint planning, backlog refinement, and retrospectives to deliver iterative solutions.",
+      "Utilized Jira for task management: Created user stories, prioritized tasks, and monitored workflow efficiency to meet project deadlines."
     ]
   },
   {
     id: 2,
-    title: "Full Stack Developer",
-    company: "WebSolutions Co.",
-    period: "2018 - 2020",
+    title: "Full-Stack Web Development Intern",
+    company: "Clever mind POB",
+    period: "October 2023 - March 2024",
     description: [
-      "Developed and maintained multiple client web applications using React and Node.js.",
-      "Built RESTful APIs and integrated third-party services to enhance application functionality.",
-      "Optimized database queries, resulting in a 30% improvement in application performance.",
-      "Participated in Agile development processes, including sprint planning and retrospectives."
-    ]
-  },
-  {
-    id: 3,
-    title: "Junior Web Developer",
-    company: "Digital Creations",
-    period: "2016 - 2018",
-    description: [
-      "Created responsive websites for various clients using HTML, CSS, and JavaScript.",
-      "Assisted in migrating legacy applications to modern frameworks.",
-      "Implemented tracking systems and analytics for client websites.",
-      "Collaborated with designers to ensure pixel-perfect implementation of designs."
+      "Gained hands-on experience in full stack web development, working with technologies such as HTML, CSS, JavaScript, Bootstrap, PHP, Laravel. ",
+      "Developed a strong understanding of object-oriented programming (OOP) and the Model-View-Controller (MVC) architecture, applying these concepts in building scalable web applications ",
+      "Assisted in the design and management of databases using MySQL, PhpMyAdmin, and SQL, ensuring data integrity and optimal performance. ",
+      "Contributed to the front-end and back-end development of web projects, enhancing skills in building responsive and user-friendly interfaces. "
     ]
   }
 ];
@@ -63,24 +51,10 @@ const experiences: Experience[] = [
 const educations: Education[] = [
   {
     id: 1,
-    degree: "Master of Computer Science",
-    institution: "Tech University",
-    period: "2014 - 2016",
-    description: "Focused on web technologies and distributed systems. Completed thesis on optimizing React applications for performance."
-  },
-  {
-    id: 2,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "State University",
-    period: "2010 - 2014",
-    description: "Graduated with honors. Relevant coursework included data structures, algorithms, database systems, and web development."
-  },
-  {
-    id: 3,
-    degree: "Full Stack Web Development Bootcamp",
-    institution: "Code Academy",
-    period: "2015",
-    description: "Intensive 12-week program covering modern web development technologies and practices."
+    degree: "Bachelor’s degree in computer Information Systems",
+    institution: "Tafila Technical University",
+    period: "2020 - 2024",
+    description: "obtained a strong foundation in programming languages such as Java, C++, C#, Python, HTML, CSS, JavaScript, and PHP. Completed academic projects that involved building web applications, database management systems, and utilizing object oriented programming principles."
   }
 ];
 
@@ -120,9 +94,6 @@ const Resume: React.FC = () => {
               My professional journey and educational background that have shaped my career in web development.
             </p>
           </div>
-          <Button className="mt-6 md:mt-0 bg-cyan hover:bg-cyan/90 text-foreground reveal">
-            <Download className="mr-2 h-4 w-4" /> Download CV
-          </Button>
         </div>
         
         <Tabs defaultValue="experience" className="w-full reveal">

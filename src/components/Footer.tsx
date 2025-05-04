@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div>
-            <h2 className="text-2xl font-bold mb-2">John Doe</h2>
+            <h2 className="text-2xl font-bold mb-2">Sadad Albayyari</h2>
             <p className="text-white/70">Full-Stack Developer</p>
           </div>
           
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               &copy; {new Date().getFullYear()} All Rights Reserved
             </p>
             <p className="text-white/50 text-center md:text-right text-sm">
-              Designed with ❤️ by John Doe
+              Designed with ❤️ by Sdad Albayyari
             </p>
           </div>
         </div>

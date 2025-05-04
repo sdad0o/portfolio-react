@@ -58,7 +58,7 @@ const About: React.FC = () => {
             <div className="space-y-6">
               <p className="text-lg reveal">
                 Hello! I'm Sadad, a Computer Information Systems graduate and a passionate Full Stack Developer.
-                I’ve gained hands-on experience through internships and personal projects, working with technologies like Laravel, PHP, JavaScript, and MySQL.
+                I’ve gained hands-on experience through internships and personal projects, working with technologies like Laravel, PHP, C#, JavaScript, and MySQL.
                 I have a solid understanding of both front-end and back-end development, including MVC architecture, RESTful APIs, and Agile methodologies.
 
               </p>
