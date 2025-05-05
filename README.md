@@ -8,8 +8,7 @@ This is a stunning and animated personal portfolio built with **Vite**, **React*
 
 ## 🚀 Live Demo
 
-🔗 [https://sdad0o.github.io/portfolio](https://sdad0o.github.io/portfolio)
-
+🔗 [https://sdad0o.github.io/portfolio-react/](https://sdad0o.github.io/portfolio-react)
 ---
 
 ## 🛠 Tech Stack
